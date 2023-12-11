@@ -12,17 +12,17 @@
         <h1 class="name">{{ $data.title | safeHTML }}</h1>
         <p>{{ $data.shortDescription }}</p>
         <div class="btn-container-group">
-          <div class="btn-container">
-            <a href="#product"  data-id="product">
-                <span class="btn-text">{{$glossary.cta1}}</span>
-                <span class="btn-icon"><i class="fas fa-angle-down"></i></span>
-                <i class="bg"></i>
-            </a>
-          </div>
+            <div class="btn-container">
+                <a href="#product" data-id="product">
+                    <span class="btn-text">{{$glossary.cta1}}</span>
+                    <img src="path/to/your/icon.png" class="custom-icon"  alt=""/>
+                </a>
+            </div>
+
           <div class="btn-container">
             <a href="https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms#readme"  data-id="product" target="blank">
                 <span class="btn-text">{{$glossary.cta2}}</span>
-                <span class="btn-icon btn-icon-deploy"><i class="fas fa-rocket"></i></span>
+                <span class="btn-icon btn-icon-deploy"><i class="fas fa-parachute-box"></i></span>
                 <i class="bg"></i>
             </a>
           </div>

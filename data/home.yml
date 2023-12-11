@@ -1,12 +1,9 @@
 en:
-  title: Remix, a <span>theme for Hugo</span> fully editable with <span>Netlify
-    CMS</span>
+  title: Welcome to the <span>UHPC</span> website
   slogan: Nulla magna eiusmod ea eu irure exercitation non incididunt.
   shortDescription: |
     
-    → Get your own copy of this website in minutes.
-    → Edit everything with no single line of code.
-    → It's free and open-source!
+    The Ulster Hang Gliding and Paragliding Club (UHPC) is the only hang gliding and paragliding club in Northern Ireland and is affiliated with the British Hang Gliding and Paragliding Association (BHPA). We are recognised by SportNI as the governing body for hang gliding and paragliding in Northern Ireland. In addition, we welcome paramotorists and powered hang glider pilots, whose flying activities closely align with non-powered equivalents.
   image: /media/1.jpg
   copyright: "  © 2017-2022 - OhBonsaï &"
   register: Roneo.org
