@@ -10,26 +10,12 @@
 {{ $existtheme :=  site.Taxonomies.theme }}
 
 
-<section class="section sec3 content-sec" id="product">
-
-
-
-    <p class="sub-title">
-        {{ $data.portText }}
-    </p>
-
-
-    <div class="categories">
-
-        {{range $curCategorySlug, $curCategoryVar := $existtheme}}
-        {{ $curCategoryCfg := index $cMapping $curCategorySlug}}
-        {{ $firstPage := index $curCategoryVar 0}}
-
-
-        {{ end }}
-
-
+<section class="section sec1" id="home">
+    <div class="left-header">
+        <img src="{{$data.image}}" class="image">
     </div>
-
-
+    <div class="right-header">
+        <h1 class="name">{{ $data.title | safeHTML }}</h1>
+        <p>{{ $data.portText }}</p>
+    </div>
 </section>
